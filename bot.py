@@ -10,7 +10,7 @@ from telegram.ext import (
 )
 
 # --- КОНФИГУРАЦИЯ ---
-TOKEN = "8428563491:AAFMQgjCSMNCa_Gmp7JIO8WfqOmosn1qS58"
+TOKEN = ""
 STATS_FILE = "stats.json" 
 TIMERS_FILE = "timers.json" # Новый файл для хранения времени
 
