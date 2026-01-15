@@ -1,0 +1,10 @@
+services:
+  bot:
+    build: .
+    container_name: pills-reminder-bot
+    restart: unless-stopped
+    env_file:
+      - .env
+    volumes:
+      - ./stats.json:/app/stats.json
+      - ./timers.json:/app/timers.json
