@@ -29,7 +29,6 @@ STATS_FILE = "stats.json"
 TIMERS_FILE = "timers.json"
 TZ_MSK = pytz.timezone("Europe/Moscow")
 
-
 logging.basicConfig(
     format="%(asctime)s - %(name)s - %(levelname)s - %(message)s", level=logging.INFO
 )
